@@ -8,7 +8,7 @@ const Home = () => {
     <div className="home">
       <h1>Welcome to My Environmental Biology Portfolio</h1>
       <p>
-        Hello! I am a college student passionate about Environmental Biology. I am currently seeking an internship opportunity to apply my skills and knowledge in this field.
+        Hello! I am Sara Torres, a college student passionate about Environmental Biology. I am currently seeking an internship opportunity to apply my skills and knowledge in this field.
       </p>
       <nav>
         <ul>
