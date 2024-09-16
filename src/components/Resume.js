@@ -1,5 +1,6 @@
 // src/components/Resume.js
 import React from 'react';
+import './Resume.css';
 
 const Resume = () => {
   return (
@@ -8,8 +9,9 @@ const Resume = () => {
       <p>
         Here is my professional resume, highlighting my academic achievements, skills, and experiences in Environmental Biology.
       </p>
-      <embed src={`${process.env.PUBLIC_URL}/assets/resume.pdf`} width="800px" height="2100px" />
-      {/* Example of correct link if you are manually specifying paths */}
+      <div className="resume-container">
+        <embed src={`${process.env.PUBLIC_URL}/assets/resume.pdf`} className="resume-pdf" />
+      </div>
       <a href={`${process.env.PUBLIC_URL}/assets/resume.pdf`} target="_blank" rel="noopener noreferrer">
         Download Resume
       </a>
