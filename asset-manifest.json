@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/saratorres-portfolio/static/css/main.66c4f9f8.css",
-    "main.js": "/saratorres-portfolio/static/js/main.36b64999.js",
+    "main.css": "/saratorres-portfolio/static/css/main.d817c148.css",
+    "main.js": "/saratorres-portfolio/static/js/main.dd3f9477.js",
     "static/js/488.f76d11bb.chunk.js": "/saratorres-portfolio/static/js/488.f76d11bb.chunk.js",
     "index.html": "/saratorres-portfolio/index.html",
-    "main.66c4f9f8.css.map": "/saratorres-portfolio/static/css/main.66c4f9f8.css.map",
-    "main.36b64999.js.map": "/saratorres-portfolio/static/js/main.36b64999.js.map",
+    "main.d817c148.css.map": "/saratorres-portfolio/static/css/main.d817c148.css.map",
+    "main.dd3f9477.js.map": "/saratorres-portfolio/static/js/main.dd3f9477.js.map",
     "488.f76d11bb.chunk.js.map": "/saratorres-portfolio/static/js/488.f76d11bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.66c4f9f8.css",
-    "static/js/main.36b64999.js"
+    "static/css/main.d817c148.css",
+    "static/js/main.dd3f9477.js"
   ]
 }
