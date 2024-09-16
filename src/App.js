@@ -16,6 +16,7 @@ function App() {
               <li><Link to="/">Home</Link></li>
               <li><Link to="/resume">Resume</Link></li>
               <li><Link to="/papers">Papers</Link></li>
+              <li><a href="https://spaceshiptrip.github.io/sample-react-gh-host/assets/resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a></li>
             </ul>
           </nav>
         </header>
@@ -24,8 +25,6 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/resume" element={<Resume />} />
             <Route path="/papers" element={<Papers />} />
-            {/* Catch-all route */}
-            <Route path="*" element={<Home />} />
           </Routes>
         </main>
       </div>
@@ -34,3 +33,4 @@ function App() {
 }
 
 export default App;
+
