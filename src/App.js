@@ -9,7 +9,7 @@ import './styles.css';
 function App() {
   return (
     // Set the basename to match the subdirectory on GitHub Pages
-    <Router basename="/sample-react-gh-host">
+    <Router basename="/saratorres-portfolio">
       <div className="App">
         <header>
           <nav>
@@ -17,7 +17,7 @@ function App() {
               <li><Link to="/">Home</Link></li>
               <li><Link to="/resume">Resume</Link></li>
               <li><Link to="/papers">Papers</Link></li>
-              <li><a href="https://spaceshiptrip.github.io/sample-react-gh-host/assets/resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a></li>
+              <li><a href="https://spaceshiptrip.github.io/saratorres-portfolio/assets/resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a></li>
             </ul>
           </nav>
         </header>
