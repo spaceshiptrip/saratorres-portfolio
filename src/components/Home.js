@@ -1,6 +1,7 @@
 // src/components/Home.js
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Home.css'; // Import the CSS file for styling
 
 const Home = () => {
   return (
@@ -19,8 +20,11 @@ const Home = () => {
           </li>
         </ul>
       </nav>
+      <img src={`${process.env.PUBLIC_URL}/assets/IMG_0618.jpeg`} alt="Environmental Biology" className="responsive-image" />
     </div>
   );
 };
 
 export default Home;
+
+
