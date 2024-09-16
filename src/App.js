@@ -8,7 +8,8 @@ import './styles.css';
 
 function App() {
   return (
-    <Router>
+    // Set the basename to match the subdirectory on GitHub Pages
+    <Router basename="/sample-react-gh-host">
       <div className="App">
         <header>
           <nav>
