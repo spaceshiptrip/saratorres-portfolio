@@ -1,9 +1,46 @@
+/* styles.css */
+
+/* Make the image responsive */
+.responsive-image {
+    max-width: 100%;  /* The image will not be wider than its container */
+    height: auto;     /* Maintain aspect ratio */
+    display: block;   /* Remove any inline gaps */
+    margin: 0 auto;   /* Center the image */
+}
+
+/* Example styles for other elements */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+
 
 header {
     background-color: #4CAF50;
