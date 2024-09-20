@@ -1,11 +1,21 @@
 /* styles.css */
 
-/* Make the image responsive */
+/* styles.css */
+
+/* Make the image responsive with a maximum width */
 .responsive-image {
-    max-width: 100%;  /* The image will not be wider than its container */
-    height: auto;     /* Maintain aspect ratio */
-    display: block;   /* Remove any inline gaps */
-    margin: 0 auto;   /* Center the image */
+    width: 100%;        /* Default to 100% of its container */
+    max-width: 600px;   /* But no wider than 600px */
+    height: auto;       /* Maintain aspect ratio */
+    display: block;     /* Remove any inline gaps */
+    margin: 0 auto;     /* Center the image */
+}
+
+/* Example media query to adjust layout on smaller screens */
+@media (max-width: 768px) {
+    .responsive-image {
+        max-width: 100%;  /* Allow the image to be as wide as the container on small screens */
+    }
 }
 
 /* Example styles for other elements */
@@ -24,29 +34,6 @@ header {
     text-align: center;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 15px;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #f4f4f4;
-}
-
-
-
-header {
-    background-color: #4CAF50;
-    padding: 10px 0;
-    text-align: center;
-}
 
 header nav ul {
     list-style-type: none;
