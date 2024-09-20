@@ -1,20 +1,18 @@
 /* styles.css */
 
-/* styles.css */
-
-/* Make the image responsive with a maximum width */
+/* Ensure the image is responsive and scales appropriately */
 .responsive-image {
-    width: 100%;        /* Default to 100% of its container */
-    max-width: 600px;   /* But no wider than 600px */
-    height: auto;       /* Maintain aspect ratio */
-    display: block;     /* Remove any inline gaps */
-    margin: 0 auto;     /* Center the image */
+    width: 100%;              /* Image takes up 100% of its container's width */
+    max-width: 700px;         /* Limit the image width to 1000px or any preferred max size */
+    height: auto;              /* Maintain aspect ratio */
+    display: block;            /* Ensures the image is treated as a block element */
+    margin: 0 auto;            /* Center the image horizontally */
 }
 
-/* Example media query to adjust layout on smaller screens */
+/* Adjustments for smaller screen sizes */
 @media (max-width: 768px) {
     .responsive-image {
-        max-width: 100%;  /* Allow the image to be as wide as the container on small screens */
+        max-width: 100%;       /* On smaller screens, allow the image to shrink as needed */
     }
 }
 
